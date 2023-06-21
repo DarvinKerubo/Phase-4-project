@@ -29,5 +29,14 @@ We shall proceed to perform data exploration: Understand the characteristics of 
 3.0 DATA PREPARATION
 Data cleaning: Address any missing values, outliers, or inconsistencies in the dataset. Feature engineering: Extract meaningful features from the chest X-ray images that can contribute to pneumonia detection, such as texture patterns or lung region segmentation. Data transformation: Normalize or standardize the data as required for the deep learning model.
 CNN model with 4 hidden layers gives best results with 88% Prediction accuracy
+
+4.0 MODELLING & EVALUATION
+Modeling: deep learning architecture for pneumonia detection, such as Convolutional Neural Networks (CNNs). Train the model using the prepared dataset, optimizing the model's parameters and hyperparameters. Validate and evaluate the model's performance using appropriate evaluation metrics, such as accuracy, sensitivity, specificity, or area under the receiver operating characteristic curve (AUC-ROC).
+
+Evaluation: Assess the model's performance against the project objectives, considering factors like accuracy, speed, and interpretability. Identify any limitations or areas for improvement in the model's performance. Iterate on the modeling process if necessary, by refining the architecture, adjusting hyperparameters, or gathering additional data. Deployment:
+
+Integrate the trained model into a software or web-based application that can accept chest X-ray images as input and provide automated pneumonia detection. Test the deployed system thoroughly to ensure its functionality, reliability, and accuracy. Monitor the system's performance in real-world scenarios and make necessary updates or improvements as needed. Maintenance:
+
+Continuously monitor and evaluate the system's performance, incorporating feedback from radiologists and healthcare professionals. Update the model periodically to account for new data, evolving medical guidelines, or advancements in deep learning techniques.
 5.0 RECOMMENDATIONS/CONCLUSSION
 This model can be used in Healthcare sector in the radiological department to assist predict chest xray images easily and accutately. Similar model likewise can be improved on and deployed to assist with detection of any infectious lung diseases.
